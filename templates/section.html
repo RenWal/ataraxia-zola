@@ -58,19 +58,19 @@
                     {{ page.summary | safe }}
                   </p>
                   <p class="row card-text">
-                    <small class="col-auto my-1 me-4 text-muted">
+                    <small class="col-auto my-1 me-4 text-body-secondary">
                       <span class="bi bi-calendar mx-1"></span>
                       <time datetime="{{ page.date | safe }}">
                         <a 
                           href="#" data-bs-toggle="tooltip"
                           data-bs-title="{{ page.date | date(format='%A, %B %d, %Y %r %Z') | safe }}"
-                          class="text-muted text-decoration-none"
+                          class="text-body-secondary text-decoration-none"
                         >
                           {{ page.date | date(format="%B %d, %Y") | safe }}
                         </a>
                       </time>
                     </small>
-                    <small class="col-auto my-1 text-muted">
+                    <small class="col-auto my-1 text-body-secondary">
                       {% if page.taxonomies.categories %}
                         <span class="bi bi-bookmarks"></span>
                         {{ posts::categories(categories = page.taxonomies.categories) }}
