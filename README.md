@@ -78,14 +78,6 @@ sass --watch scss/custom.scss:static/assets/css/custom.css
 
 This theme is mainly built on [Zola](https://www.getzola.org/) and [Bootstrap](https://getbootstrap.com/), plus it makes use of [Google fonts](https://fonts.google.com/).
 
-
-## Sponsoring
-
-[![Liberapay](https://img.shields.io/badge/Finance%20my%20work-F6C915?style=flat&logo=liberapay&logoColor=ffffff "Finance my work")](https://liberapay.com/gersonbenavides/donate)
-
-[![PayPal](https://img.shields.io/badge/Make%20a%20donation-00457C?style=flat&logo=paypal "Make a donation")](https://paypal.me/gersonbdev?country.x=CO&locale.x=es_XC)
-
-
 ## License
 
 This work is published under the [MPL-2.0](https://www.mozilla.org/en-US/MPL/2.0/) license
